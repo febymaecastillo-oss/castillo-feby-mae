@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/* ===== BODY & GHIBLI BACKGROUND ===== */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  /* Ghibli-style layered background */
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.78),
+      rgba(255, 255, 255, 0.78)
+    ),
+    url("images/bg.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: #2f3e46;
+  line-height: 1.8;
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  padding: 90px 20px 60px;
+  background: rgba(240, 248, 244, 0.92);
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.profile-pic {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #a3c4bc;
+  margin-bottom: 20px;
+}
+
+/* ===== NAME ===== */
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8em;
+  margin: 10px 0 5px;
+  color: #344e41;
+}
+
+/* ===== SUBTITLE ===== */
+header p {
+  font-size: 1.1em;
+  color: #52796f;
+}
+
+/* ===== NAV ===== */
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+  background: #e9f5db;
+  padding: 9px 20px;
+  border-radius: 25px;
+  color: #344e41;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  background: #ccd5ae;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 20px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2em;
+  margin-bottom: 25px;
+  color: #344e41;
+}
+
+/* ===== CONTENT CARD ===== */
+.card {
+  background: rgba(255, 255, 255, 0.94);
+  padding: 35px;
+  border-radius: 32px;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.14);
+}
+
+/* ===== LIST ===== */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* ===== SOCIAL LINKS ===== */
+.social a {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #1b4332;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: rgba(240, 248, 244, 0.95);
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  font-size: 0.95em;
+  color: #344e41;
+}
